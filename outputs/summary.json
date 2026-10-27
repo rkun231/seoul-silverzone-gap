@@ -1,0 +1,303 @@
+{
+ "pop_total": 9279861,
+ "pop65": 1965867,
+ "pop0_12": 648419,
+ "share65": 21.2,
+ "old_acc_5y": 9564,
+ "child_acc_5y": 1846,
+ "old_dead_5y": 338,
+ "child_dead_5y": 6,
+ "old_acc_2021": 1722,
+ "old_acc_2025": 2060,
+ "old_acc_growth": 19.6,
+ "child_acc_2021": 332,
+ "child_acc_2025": 339,
+ "old_fatal_rate": 3.29,
+ "child_fatal_rate": 0.28,
+ "old_ksi_share": 51.1,
+ "child_ksi_share": 20.2,
+ "n_silver": 195,
+ "n_school": 1632,
+ "silver_per_10k65": 0.99,
+ "school_per_10k012": 25.17,
+ "silver_per_100acc": 2.0,
+ "school_per_100acc": 88.4,
+ "ratio_per_acc": 44.2,
+ "silver_new_2016_2021": 54,
+ "silver_new_2022_2026": 6,
+ "silver_by_year": {
+  "2016": 11,
+  "2017": 8,
+  "2018": 9,
+  "2019": 9,
+  "2020": 13,
+  "2021": 4,
+  "2022": 4,
+  "2023": 0,
+  "2024": 2,
+  "2025": 0,
+  "2026": 0
+ },
+ "silver_types": {
+  "의료복지시설": 140,
+  "여가복지시설": 34,
+  "노인보호전문기관": 10,
+  "주거복지시설": 4,
+  "기타": 3,
+  "노인일자리지원기관": 2,
+  "조례로 정하는 시설": 1,
+  "재가노인복지시설": 1
+ },
+ "gu_top5_gap": [
+  "강북구",
+  "영등포구",
+  "중랑구",
+  "동대문구",
+  "금천구"
+ ],
+ "gu_table_top": [
+  {
+   "시군구명": "강북구",
+   "p65": 76400,
+   "ksi": 243,
+   "ksi_per_10k65_yr": 6.36,
+   "silver": 2,
+   "silver_per_10k65": 0.26,
+   "gap_index": 1.62
+  },
+  {
+   "시군구명": "영등포구",
+   "p65": 73462,
+   "ksi": 265,
+   "ksi_per_10k65_yr": 7.21,
+   "silver": 4,
+   "silver_per_10k65": 0.54,
+   "gap_index": 1.58
+  },
+  {
+   "시군구명": "중랑구",
+   "p65": 91800,
+   "ksi": 274,
+   "ksi_per_10k65_yr": 5.97,
+   "silver": 3,
+   "silver_per_10k65": 0.33,
+   "gap_index": 1.32
+  },
+  {
+   "시군구명": "동대문구",
+   "p65": 75230,
+   "ksi": 329,
+   "ksi_per_10k65_yr": 8.75,
+   "silver": 9,
+   "silver_per_10k65": 1.2,
+   "gap_index": 1.27
+  },
+  {
+   "시군구명": "금천구",
+   "p65": 51735,
+   "ksi": 170,
+   "ksi_per_10k65_yr": 6.57,
+   "silver": 4,
+   "silver_per_10k65": 0.77,
+   "gap_index": 0.88
+  },
+  {
+   "시군구명": "구로구",
+   "p65": 88783,
+   "ksi": 219,
+   "ksi_per_10k65_yr": 4.93,
+   "silver": 3,
+   "silver_per_10k65": 0.34,
+   "gap_index": 0.78
+  }
+ ],
+ "corr_risk_supply": 0.53,
+ "old_daytime_share": 72.9,
+ "old_crossing_share": 32.3,
+ "child_crossing_share": 38.0,
+ "old_peak_hours": [
+  11,
+  15,
+  14
+ ],
+ "old_9to18_share": 62.4,
+ "ksi_rate_crossing": 59.7,
+ "ksi_rate_noncross": 47.1,
+ "fatal_rate_night": 4.08,
+ "fatal_rate_day": 2.99,
+ "veh_share": {
+  "승용": 54.0,
+  "화물": 14.4,
+  "승합": 11.2,
+  "이륜": 7.4,
+  "자전거": 6.8,
+  "기타불명": 2.0,
+  "개인형이동수단(PM)": 1.7
+ },
+ "road_share": {
+  "단일로": 48.6,
+  "교차로": 38.8,
+  "기타": 12.4,
+  "미분류": 0.2
+ },
+ "viol_share": {
+  "안전운전불이행": 69.1,
+  "보행자보호의무위반": 14.7,
+  "기타": 8.2,
+  "신호위반": 6.6
+ },
+ "n_hot25": 71,
+ "hot25_cas": 407,
+ "hot25_dead": 25,
+ "hot25_within300_silver": 18,
+ "hot25_within300_silver_pct": 25.4,
+ "hot25_within300_school_pct": 60.6,
+ "hot25_median_d_silver": 644,
+ "hot25_over1km_pct": 28.2,
+ "hot25_repeat_any": 34,
+ "hot25_repeat_all3": 18,
+ "silhouette": {
+  "2": 0.197,
+  "3": 0.203,
+  "4": 0.214,
+  "5": 0.21,
+  "6": 0.203
+ },
+ "cluster_profile": [
+  {
+   "type": "간선 대형차형",
+   "night": 26.3,
+   "crossing": 17.7,
+   "intersection": 24.3,
+   "two_wheel": 26.2,
+   "heavy": 46.8,
+   "n": 23
+  },
+  {
+   "type": "교차로 횡단형",
+   "night": 20.4,
+   "crossing": 47.7,
+   "intersection": 69.6,
+   "two_wheel": 3.5,
+   "heavy": 39.2,
+   "n": 16
+  },
+  {
+   "type": "야간 횡단형",
+   "night": 50.6,
+   "crossing": 50.6,
+   "intersection": 35.0,
+   "two_wheel": 25.4,
+   "heavy": 24.7,
+   "n": 18
+  },
+  {
+   "type": "시장·생활가로형",
+   "night": 13.3,
+   "crossing": 23.9,
+   "intersection": 41.9,
+   "two_wheel": 17.3,
+   "heavy": 11.1,
+   "n": 14
+  }
+ ],
+ "market_share_by_type": {
+  "간선 대형차형": 4.0,
+  "교차로 횡단형": 12.0,
+  "시장·생활가로형": 43.0,
+  "야간 횡단형": 6.0
+ },
+ "n_market_hot": 10,
+ "top10": [
+  {
+   "zoneDetailNm": "양천구 목동(약초원한약국 부근)",
+   "caltCnt": 11,
+   "dprsCnt": 0,
+   "repeat": 1,
+   "d_silver": 1170,
+   "type": "간선 대형차형",
+   "score": 64.3
+  },
+  {
+   "zoneDetailNm": "동대문구 제기동(동서시장 부근)",
+   "caltCnt": 12,
+   "dprsCnt": 0,
+   "repeat": 2,
+   "d_silver": 55,
+   "type": "시장·생활가로형",
+   "score": 61.1
+  },
+  {
+   "zoneDetailNm": "마포구 도화동(아카데미약국 부근)",
+   "caltCnt": 6,
+   "dprsCnt": 2,
+   "repeat": 2,
+   "d_silver": 491,
+   "type": "교차로 횡단형",
+   "score": 55.5
+  },
+  {
+   "zoneDetailNm": "동작구 상도동(계령약국 부근)",
+   "caltCnt": 10,
+   "dprsCnt": 0,
+   "repeat": 2,
+   "d_silver": 295,
+   "type": "시장·생활가로형",
+   "score": 54.5
+  },
+  {
+   "zoneDetailNm": "동대문구 제기동(청량리전통시장 부근)",
+   "caltCnt": 10,
+   "dprsCnt": 0,
+   "repeat": 2,
+   "d_silver": 176,
+   "type": "교차로 횡단형",
+   "score": 52.1
+  },
+  {
+   "zoneDetailNm": "강북구 미아동(미아사거리역 4호선 부근)",
+   "caltCnt": 7,
+   "dprsCnt": 0,
+   "repeat": 2,
+   "d_silver": 1568,
+   "type": "야간 횡단형",
+   "score": 51.4
+  },
+  {
+   "zoneDetailNm": "동대문구 제기동(경동시장교차로 부근)",
+   "caltCnt": 6,
+   "dprsCnt": 2,
+   "repeat": 2,
+   "d_silver": 246,
+   "type": "교차로 횡단형",
+   "score": 50.6
+  },
+  {
+   "zoneDetailNm": "중랑구 망우동(우림맛솜씨길 골목형상점가 부근)",
+   "caltCnt": 5,
+   "dprsCnt": 1,
+   "repeat": 2,
+   "d_silver": 1223,
+   "type": "시장·생활가로형",
+   "score": 50.0
+  },
+  {
+   "zoneDetailNm": "중랑구 면목동(사가정시장 부근)",
+   "caltCnt": 6,
+   "dprsCnt": 0,
+   "repeat": 2,
+   "d_silver": 1195,
+   "type": "시장·생활가로형",
+   "score": 45.7
+  },
+  {
+   "zoneDetailNm": "동작구 사당동(남성사계시장 부근)",
+   "caltCnt": 7,
+   "dprsCnt": 0,
+   "repeat": 2,
+   "d_silver": 639,
+   "type": "시장·생활가로형",
+   "score": 44.2
+  }
+ ]
+}
